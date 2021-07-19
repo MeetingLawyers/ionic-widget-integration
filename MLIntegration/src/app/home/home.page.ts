@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
 
 declare var meetinglawyers: any;
 
@@ -9,10 +10,26 @@ declare var meetinglawyers: any;
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private androidPermissions: AndroidPermissions) { }
 
   async ngOnInit() {
     
+    this.androidPermissions.checkPermission(this.androidPermissions.PERMISSION.CAMERA).then(
+      result => this.initWidget(),
+      err => this.androidPermissions.requestPermission(this.androidPermissions.PERMISSION.CAMERA)
+    );
+
+    this.androidPermissions.checkPermission(this.androidPermissions.PERMISSION.RECORD_AUDIO).then(
+      result => this.initWidget(),
+      err => this.androidPermissions.requestPermission(this.androidPermissions.PERMISSION.RECORD_AUDIO)
+    );
+    
+    this.androidPermissions.requestPermissions([this.androidPermissions.PERMISSION.CAMERA, this.androidPermissions.PERMISSION.RECORD_AUDIO, this.androidPermissions.PERMISSION.MODIFY_AUDIO_SETTINGS]);
+
+    this.initWidget()
+  }
+
+  initWidget() {
     meetinglawyers.initialize({
       apiKey: '<API_KEY>',
       displayMode: 'contained',
@@ -21,6 +38,5 @@ export class HomePage {
       template: 'beauty',
       jwt: '<AUTHENTICATION_JWT>',
     });
-
   }
 }
