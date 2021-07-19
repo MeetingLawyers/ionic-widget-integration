@@ -1,0 +1,7 @@
+{
+  "name": "MLIntegration",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
