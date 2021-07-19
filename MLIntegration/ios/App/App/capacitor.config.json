@@ -1,0 +1,6 @@
+{
+	"appId": "com.meetinglawyers.ionicstarter",
+	"appName": "MLIntegration",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
