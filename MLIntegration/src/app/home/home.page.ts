@@ -57,15 +57,15 @@ export class HomePage {
   }
 
   updateWidgetPermissions(allowed: boolean, suported = true) {
-    console.log("updateWidgetPermissions : " + allowed + " - " + suported);
+    var audioVideoValue = "not-allowed";
     if (allowed) {
-      meetinglawyers.setWidgetPermissions({audioVideo : "allowed"})
-    } else {
-      meetinglawyers.setWidgetPermissions({audioVideo : "not-allowed"})
+      audioVideoValue = "allowed"
     }
     if (!suported) {
-      meetinglawyers.setWidgetPermissions({audioVideo : "not-suported"})
+      audioVideoValue = "not-suported"
     }
+
+    meetinglawyers.setWidgetPermissions({audioVideo : audioVideoValue})
   }
 
   // *** PERMISSIONS ***
