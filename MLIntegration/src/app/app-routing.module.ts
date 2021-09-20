@@ -6,10 +6,15 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
+  // CHANGE FIRST PAGE:
   {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },
+  {
+    path: 'iframe-example',
+    loadChildren: () => import('./iframe-example/iframe-example.module').then( m => m.IframeExamplePageModule)
   },
 ];
 

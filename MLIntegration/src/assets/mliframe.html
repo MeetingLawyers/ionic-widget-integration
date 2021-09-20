@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>ML IFRAME</title>
+
+    <link href="https://sdk.meetinglawyers.com/static/css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+      <div id="meetingLawyersRender" style="position: static; width: 100%; height: 100%; z-index: 1;"></div>
+      <script src="https://sdk.demo.meetinglawyers.com/static/js/main.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          window.meetinglawyers.initialize({
+            apiKey: '<API_KEY>',
+            displayMode: 'contained',
+            containerId: "meetingLawyersRender",
+            language: 'es',
+            template: 'beauty',
+            isEmbeddedApp: true,
+            jwt: '<AUTHENTICATION_JWT>'
+          })
+        }, !1)
+      </script>
+  </body>
+
+</html>

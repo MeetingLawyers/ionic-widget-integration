@@ -1,43 +1,29 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, OnInit, ViewChild, HostListener } from '@angular/core';
 import { Platform } from '@ionic/angular';
 import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
 import { Device } from '@ionic-native/device/ngx';
-
-
-declare var meetinglawyers: any;
+import { MLIframeTrackingDirective } from '../directives/mliframe-tracking.directive';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-iframe-example',
+  templateUrl: './iframe-example.page.html',
+  styleUrls: ['./iframe-example.page.scss'],
 })
-export class HomePage {
+export class IframeExamplePage implements OnInit {
+
+  @ViewChild(MLIframeTrackingDirective) iframe: MLIframeTrackingDirective;
 
   constructor(private androidPermissions: AndroidPermissions, 
               public platform: Platform, 
               private device: Device) { }
 
-  async ngOnInit() {
-    this.initWidget()
-  }
-
-  // *** WIDGET ***
-
-  initWidget() {
-    meetinglawyers.initialize({
-      apiKey: '<API_KEY>',
-      displayMode: 'contained',
-      containerId: "meetingLawyersRender",
-      language: 'es',
-      template: 'beauty',
-      isEmbeddedApp: true,
-      jwt: '<AUTHENTICATION_JWT>',
-    });
+  ngOnInit() {
   }
 
   // Widget event handler
   @HostListener('document:meetingLawyers', ['$event', '$event.detail.type'])
   meetingLawyersEventHandler(event: CustomEvent, type: string) {
+    console.log(type)
     switch (type) {
       case "videocall-action":
         // Triggered when the widget needs camera permissions
@@ -65,7 +51,8 @@ export class HomePage {
       audioVideoValue = "not-suported"
     }
 
-    meetinglawyers.setWidgetPermissions({audioVideo : audioVideoValue})
+    // Update iframe
+    this.iframe.setWidgetPermissions(audioVideoValue);
   }
 
   // *** PERMISSIONS ***
@@ -150,5 +137,6 @@ export class HomePage {
         if (v1[i] < v2[i]) return -1;        
     }
     return v1.length == v2.length ? 0: (v1.length < v2.length ? -1 : 1);
-  }
+}
+
 }
