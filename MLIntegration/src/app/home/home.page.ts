@@ -28,8 +28,9 @@ export class HomePage {
       apiKey: '<API_KEY>',
       displayMode: 'contained',
       containerId: "meetingLawyersRender",
-      language: 'es',
+      // loginEmail: [],
       template: 'beauty',
+      language: 'es',
       isEmbeddedApp: true,
       jwt: '<AUTHENTICATION_JWT>',
     });

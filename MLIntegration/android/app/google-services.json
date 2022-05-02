@@ -1,0 +1,262 @@
+{
+  "project_info": {
+    "project_number": "670147564619",
+    "project_id": "meetinglawyers-demo",
+    "storage_bucket": "meetinglawyers-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670147564619:android:3d62cb8c796ddd749529ce",
+        "android_client_info": {
+          "package_name": "com.eurona.meetingdoctors.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQDL0pMM1L2qJrtyVCiT8sRZBOfU7euQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "670147564619-8271ebrvomsej2pmvlcrt0ltiobht5i6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.masmovil.lawyers.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670147564619:android:7a5fb419ead08abb9529ce",
+        "android_client_info": {
+          "package_name": "com.masmovil.abogados.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQDL0pMM1L2qJrtyVCiT8sRZBOfU7euQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "670147564619-8271ebrvomsej2pmvlcrt0ltiobht5i6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.masmovil.lawyers.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670147564619:android:3528d43eec5249889529ce",
+        "android_client_info": {
+          "package_name": "com.mediolanum.medlegalcare.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQDL0pMM1L2qJrtyVCiT8sRZBOfU7euQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "670147564619-8271ebrvomsej2pmvlcrt0ltiobht5i6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.masmovil.lawyers.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670147564619:android:e44505b164656eab9529ce",
+        "android_client_info": {
+          "package_name": "com.meetinglawyers.demo.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQDL0pMM1L2qJrtyVCiT8sRZBOfU7euQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "670147564619-8271ebrvomsej2pmvlcrt0ltiobht5i6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.masmovil.lawyers.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670147564619:android:347a99dbe541cc209529ce",
+        "android_client_info": {
+          "package_name": "com.meetinglawyers.ionicstarter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQDL0pMM1L2qJrtyVCiT8sRZBOfU7euQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "670147564619-8271ebrvomsej2pmvlcrt0ltiobht5i6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.masmovil.lawyers.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670147564619:android:dbc6072c7f84db099529ce",
+        "android_client_info": {
+          "package_name": "com.meetinglawyers.sdk.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQDL0pMM1L2qJrtyVCiT8sRZBOfU7euQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "670147564619-8271ebrvomsej2pmvlcrt0ltiobht5i6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.masmovil.lawyers.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670147564619:android:48d52441766ffd389529ce",
+        "android_client_info": {
+          "package_name": "com.zurich.lawyers.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQDL0pMM1L2qJrtyVCiT8sRZBOfU7euQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670147564619-3nfdidend6asp7svlntg5pl5tte898hq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "670147564619-8271ebrvomsej2pmvlcrt0ltiobht5i6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.masmovil.lawyers.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
