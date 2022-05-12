@@ -9,7 +9,7 @@ const routes: Routes = [
   // CHANGE FIRST PAGE:
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'iframe-example',
     pathMatch: 'full'
   },
   {
